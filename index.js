@@ -24,6 +24,7 @@ document.getElementById("showImage").addEventListener("click", function (event) 
   img.style.display = "block"; 
 });
 
+const showImage = document.getElementById("showImage");
 const veges = document.getElementById("veges")
 veges.addEventListener("click", (item)=>{
   item.preventDefault()
@@ -54,4 +55,3 @@ copyr.style.backgroundColor = "grey"
     imageContainer.src = currentImage;
     });
 
-    
