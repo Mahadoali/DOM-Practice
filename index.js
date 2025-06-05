@@ -37,3 +37,21 @@ paragraph.style.textTransform = "uppercase"
 
 const copyr = document.getElementById("copy");
 copyr.style.backgroundColor = "grey"
+
+
+  const toggleButton = document.getElementById("toggle-button");
+    const imageContainer = document.getElementById("image-container");
+    const image1 = "img/download.png";
+    const image2 = "img/remove.png";
+    let currentImage = image1;
+
+    toggleButton.addEventListener("click", () => {
+    if (currentImage === image1) {
+    currentImage = image2;
+    } else {
+    currentImage = image1;
+    }
+    imageContainer.src = currentImage;
+    });
+
+    
