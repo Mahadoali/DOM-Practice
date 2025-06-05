@@ -96,6 +96,7 @@ margin-left: 50em;
 .greens{
   font-size: 1em;
 }
+
 }
 
 @media screen and (min-width: 600px) {
@@ -104,6 +105,7 @@ margin-left: 50em;
   font-weight: 0;
   
   }
+  
   #veges{
     margin-left: 40%;
   }
@@ -114,8 +116,6 @@ margin-left: 50em;
     font-size: 1em;
 
   }
-  #image-container{
-
-  }
+  
   
 }
